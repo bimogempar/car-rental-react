@@ -1,4 +1,4 @@
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'antd';
