@@ -1,8 +1,8 @@
 import 'antd/dist/antd.min.css';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Cars from './components/Cars';
+import Home from './pages/Home';
+import Cars from './pages/Cars';
 
 function App() {
   return (
