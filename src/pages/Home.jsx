@@ -1,10 +1,18 @@
-import React from "react";
+import Layout, { Content, Footer, Header } from 'antd/lib/layout/layout'
+import React from 'react'
+import Login from '../components/Login'
+import Logout from '../components/Logout'
+
 
 export default function Home() {
     return (
-        <div>
-            <h1>This is landingpage</h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis magnam, ea error voluptates eligendi ullam sequi dolore dignissimos animi quia?
-        </div>
-    );
+        <Layout>
+            <Header>Header</Header>
+            <Content>
+                <Login />
+                <Logout />
+            </Content>
+            <Footer>Footer</Footer>
+        </Layout>
+    )
 }
