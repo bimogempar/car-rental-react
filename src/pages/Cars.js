@@ -1,12 +1,10 @@
 import React from "react";
-import Layout, { Content, Footer, Header } from "antd/lib/layout/layout";
 
 export default function Cars() {
   return (
-    <Layout>
-      <Header>Header</Header>
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
-    </Layout>
+    <div>
+      <h1>This is list cars</h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis magnam, ea error voluptates eligendi ullam sequi dolore dignissimos animi quia?
+    </div>
   );
 }
