@@ -1,13 +1,12 @@
 import React from 'react'
-import Login from '../components/Login'
-import Logout from '../components/Logout'
+import MyLayout from '../components/MyLayout'
 
 
 export default function Home() {
     return (
         <div>
-            <Login />
-            <Logout />
+           <MyLayout>
+            </MyLayout>
         </div>
     )
 }
