@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 import Imgservice from "../assets/img/img_service.png";
+import Imgcheck from "../assets/img/Checklist.png";
 
 export default function Service() {
     return (
@@ -22,23 +23,23 @@ export default function Service() {
               </p>
               <ul className="list-group">
                 <li className="list-group-item border-0">
-                  <img src="/assets/centang.svg" alt="" /> Sewa Mobil Dengan
+                  <img src={Imgcheck} alt="" /> Sewa Mobil Dengan
                   Supir di Bali 12 Jam
                 </li>
                 <li className="list-group-item border-0">
-                  <img src="/assets/centang.svg" alt="" /> Sewa Mobil Lepas Kunci
+                  <img src={Imgcheck} alt="" /> Sewa Mobil Lepas Kunci
                   di Bali 24 Jam
                 </li>
                 <li className="list-group-item border-0">
-                  <img src="/assets/centang.svg" alt="" /> Sewa Mobil Jangka
+                  <img src={Imgcheck} alt="" /> Sewa Mobil Jangka
                   Panjang Bulanan
                 </li>
                 <li className="list-group-item border-0">
-                  <img src="/assets/centang.svg" alt="" /> Gratis Antar - Jemput
+                  <img src={Imgcheck} alt="" /> Gratis Antar - Jemput
                   Mobil di Bandara
                 </li>
                 <li className="list-group-item border-0">
-                  <img src="/assets/centang.svg" alt="" /> Layanan Airport
+                  <img src={Imgcheck} alt="" /> Layanan Airport
                   Transfer / Drop In Out
                 </li>
               </ul>
