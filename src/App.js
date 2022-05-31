@@ -1,15 +1,17 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
 import Cars from './pages/Cars';
-import MyLayout from './components/MyLayout';
 
 function App() {
   return (
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cars" element={<Cars />} />
-        </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cars" element={<Cars />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

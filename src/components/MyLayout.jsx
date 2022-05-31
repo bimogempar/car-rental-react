@@ -1,16 +1,17 @@
 import React from 'react'
 
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Footer from './Footer';
+import NavbarLayout from './NavbarLayout';
 
 export default function MyLayout({ children }) {
     return (
-        <React.Fragment>
-            <Navbar />
-            <main>
+        <>
+            <NavbarLayout />
+            <div className='mt-5'>
                 {children}
-            </main>
+            </div>
             <Footer />
-        </React.Fragment>
+        </>
     )
 };
