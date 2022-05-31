@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 
 import Imgblue from "../assets/img/car21.min.jpg";
